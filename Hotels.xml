@@ -13,7 +13,7 @@
         <Phone>480-968-8885</Phone>
     </Hotel>
     <Hotel Rating="3.8">
-        <Name>Holiday Inn Express & Suites Phoenix Tempe</Name>
+        <Name>Holiday Inn Express &amp; Suites Phoenix Tempe</Name>
         <Address NearestAirport="Sky Harbor">
             <Number>1520</Number>
             <Street>W. Baseline Rd</Street>
@@ -68,7 +68,7 @@
         <Phone>602-333-0000</Phone>
     </Hotel>
     <Hotel Rating="4.3">
-        <Name>JW Marriott Phoenix Desert Ridge Resort & Spa</Name>
+        <Name>JW Marriott Phoenix Desert Ridge Resort &amp; Spa</Name>
         <Address NearestAirport="Sky Harbor International">
             <Number>5350 E. Marriott Dr</Number>
             <Street>Phoenix</Street>

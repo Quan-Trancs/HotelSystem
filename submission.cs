@@ -8,9 +8,9 @@ namespace ConsoleApp1
     public class Program
     {
         // Update these URLs with your ASU public files later
-        public static string xmlURL = "https://www.public.asu.edu/~YourASURITEID/Hotels.xml";         
-        public static string xmlErrorURL = "https://www.public.asu.edu/~YourASURITEID/HotelsErrors.xml"; 
-        public static string xsdURL = "https://www.public.asu.edu/~YourASURITEID/Hotels.xsd";  
+        public static string xmlURL = "https://raw.githubusercontent.com/Quan-Trancs/HotelSystem/refs/heads/main/Hotels.xml";         
+        public static string xmlErrorURL = "https://raw.githubusercontent.com/Quan-Trancs/HotelSystem/refs/heads/main/HotelsErrors.xml"; 
+        public static string xsdURL = "https://raw.githubusercontent.com/Quan-Trancs/HotelSystem/refs/heads/main/Hotels.xsd";  
 
         static bool hasErrors = false;
         static string errorMsg = "";
@@ -39,7 +39,6 @@ namespace ConsoleApp1
                 settings.Schemas.Add(null, xsdUrl);
                 settings.ValidationType = ValidationType.Schema;
                 settings.ValidationEventHandler += new ValidationEventHandler(ValidationCallBack);
-
                 hasErrors = false;
                 errorMsg = "";
 
