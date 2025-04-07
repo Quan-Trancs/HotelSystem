@@ -101,13 +101,7 @@ namespace ConsoleApp1
                 XmlDocument doc = new XmlDocument();
                 doc.LoadXml(xmlContent); // Load XML content from string
 
-                // Convert XML to JSON (using Newtonsoft.Json to serialize)
                 string jsonText = JsonConvert.SerializeXmlNode(doc, Newtonsoft.Json.Formatting.Indented, true);
-
-                // Optionally: Deserialize the JSON back to XML to ensure it's deserializable (can be used for validation or debugging)
-                var deserializedXml = JsonConvert.DeserializeXmlNode(jsonText);
-
-                // Return the JSON string
                 return jsonText;
             }
             catch (Exception ex)
