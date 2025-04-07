@@ -2,6 +2,8 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
     <Hotel Rating="4.2">
         <Name>Westin Tempe</Name>
+        <Phone>800-937-8461</Phone>
+        <Phone>480-968-8885</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>11</Number>
             <Street>E. 7th St</Street>
@@ -9,11 +11,10 @@
             <State>AZ</State>
             <Zip>85281</Zip>
         </Address>
-        <Phone>800-937-8461</Phone>
-        <Phone>480-968-8885</Phone>
     </Hotel>
     <Hotel Rating="3.8">
         <Name>Holiday Inn Express &amp; Suites Phoenix Tempe</Name>
+        <Phone>480-939-5000</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>1520</Number>
             <Street>W. Baseline Rd</Street>
@@ -21,10 +22,10 @@
             <State>AZ</State>
             <Zip>85283</Zip>
         </Address>
-        <Phone>480-939-5000</Phone>
     </Hotel>
     <Hotel Rating="4.5">
         <Name>Fairmont Scottsdale Princess</Name>
+        <Phone>480-585-4848</Phone>
         <Address NearestAirport="Phoenix Sky Harbor International">
             <Number>7575</Number>
             <Street>E. Princess Dr</Street>
@@ -32,10 +33,10 @@
             <State>AZ</State>
             <Zip>85255</Zip>
         </Address>
-        <Phone>480-585-4848</Phone>
     </Hotel>
     <Hotel Rating="4.0">
         <Name>The Phoenician</Name>
+        <Phone>480-941-8200</Phone>
         <Address NearestAirport="Sky Harbor International">
             <Number>6000</Number>
             <Street>E. Camelback Rd</Street>
@@ -43,10 +44,10 @@
             <State>AZ</State>
             <Zip>85251</Zip>
         </Address>
-        <Phone>480-941-8200</Phone>
     </Hotel>
     <Hotel Rating="3.9">
         <Name>Residence Inn by Marriott Phoenix Downtown</Name>
+        <Phone>602-258-7878</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>132 S. Central Ave</Number>
             <Street>Phoenix</Street>
@@ -54,10 +55,10 @@
             <State>AZ</State>
             <Zip>85004</Zip>
         </Address>
-        <Phone>602-258-7878</Phone>
     </Hotel>
     <Hotel Rating="4.1">
         <Name>Renaissance Phoenix Downtown</Name>
+        <Phone>602-333-0000</Phone>
         <Address NearestAirport="Sky Harbor International">
             <Number>100 N. 1st Ave</Number>
             <Street>Phoenix</Street>
@@ -65,10 +66,10 @@
             <State>AZ</State>
             <Zip>85003</Zip>
         </Address>
-        <Phone>602-333-0000</Phone>
     </Hotel>
     <Hotel Rating="4.3">
         <Name>JW Marriott Phoenix Desert Ridge Resort &amp; Spa</Name>
+        <Phone>480-293-5000</Phone>
         <Address NearestAirport="Sky Harbor International">
             <Number>5350 E. Marriott Dr</Number>
             <Street>Phoenix</Street>
@@ -76,10 +77,10 @@
             <State>AZ</State>
             <Zip>85054</Zip>
         </Address>
-        <Phone>480-293-5000</Phone>
     </Hotel>
     <Hotel Rating="3.7">
         <Name>Hilton Phoenix Resort at the Peak</Name>
+        <Phone>602-997-2626</Phone>
         <Address NearestAirport="Phoenix Sky Harbor">
             <Number>7677</Number>
             <Street>North 16th St</Street>
@@ -87,10 +88,10 @@
             <State>AZ</State>
             <Zip>85020</Zip>
         </Address>
-        <Phone>602-997-2626</Phone>
     </Hotel>
     <Hotel Rating="4.2">
         <Name>The Scottsdale Resort at McCormick Ranch</Name>
+        <Phone>480-991-9000</Phone>
         <Address NearestAirport="Phoenix Sky Harbor">
             <Number>7700 E. McCormick Pkwy</Number>
             <Street>Scottsdale</Street>
@@ -98,10 +99,10 @@
             <State>AZ</State>
             <Zip>85258</Zip>
         </Address>
-        <Phone>480-991-9000</Phone>
     </Hotel>
     <Hotel Rating="4.4">
         <Name>W Scottsdale</Name>
+        <Phone>480-970-2100</Phone>
         <Address NearestAirport="Phoenix Sky Harbor International">
             <Number>7277 E. Camelback Rd</Number>
             <Street>Scottsdale</Street>
@@ -109,6 +110,5 @@
             <State>AZ</State>
             <Zip>85251</Zip>
         </Address>
-        <Phone>480-970-2100</Phone>
     </Hotel>
 </Hotels>
